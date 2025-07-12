@@ -1,2 +1,3 @@
 /.qodo
-/frontend
+.env
+node modules
