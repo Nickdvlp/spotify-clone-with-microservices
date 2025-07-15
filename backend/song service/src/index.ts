@@ -18,7 +18,7 @@ redisClient
   .connect()
   .then(() => console.log("connected to redis"))
   .catch((err) => console.log(err));
-const port = process.env.PORT;
+const port = 5000;
 const app = express();
 
 app.use(cors());
