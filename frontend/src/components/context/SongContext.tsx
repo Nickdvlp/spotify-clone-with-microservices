@@ -8,7 +8,7 @@ import {
   type ReactNode,
 } from "react";
 
-const server = "http://localhost:5000";
+const server = "https://spotify-clone-song-service-4ss2.onrender.com";
 
 export interface Song {
   id: string;

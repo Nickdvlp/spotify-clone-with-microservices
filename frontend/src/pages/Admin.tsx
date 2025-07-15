@@ -5,7 +5,7 @@ import { useSongData } from "../components/context/SongContext";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const server = "http://localhost:7000";
+const server = "https://spotify-clone-admin-service-pljq.onrender.com";
 const Admin = () => {
   const [title, setTitle] = useState<string>("");
   const [description, setDescription] = useState<string>("");

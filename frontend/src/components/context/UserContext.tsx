@@ -8,7 +8,7 @@ import {
 } from "react";
 import { Toaster, toast } from "react-hot-toast";
 
-const server = "http://localhost:4000";
+const server = "https://spotify-clone-user-service-1962.onrender.com";
 
 export interface User {
   id: string;
