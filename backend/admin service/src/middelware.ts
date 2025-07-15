@@ -20,8 +20,8 @@ export const isAuth = async (
   next: NextFunction
 ) => {
   try {
-    const token = req.headers.authorization;
-    console.log(token);
+    const authHeader = req.headers.authorization;
+    const token = authHeader?.split(" ")[1];
 
     if (!token) {
       res.status(400).json({ message: "Unauthorized!" });
