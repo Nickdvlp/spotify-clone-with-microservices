@@ -29,7 +29,7 @@ cloudinary.v2.config({
   api_secret: process.env.CLOUDINARY_SECRET,
 });
 
-const port = process.env.PORT;
+const port = 7000;
 
 const initDB = async () => {
   try {
