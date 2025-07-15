@@ -6,6 +6,7 @@ import Layout from "../layout/Layout";
 
 const Home = () => {
   const { albums, songs, loading } = useSongData();
+  console.log(songs);
 
   return (
     <div>
