@@ -4,7 +4,8 @@ import multer from "multer";
 dotenv.config();
 export const isAuth = async (req, res, next) => {
     try {
-        const token = req.headers.token;
+        const token = req.headers.authorization;
+        console.log(token);
         if (!token) {
             res.status(400).json({ message: "Unauthorized!" });
             return;
